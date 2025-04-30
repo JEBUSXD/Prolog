@@ -1,3 +1,5 @@
+% cambiando nombe de arclivo en el area de preparasion 
+
 factorial(N):-factorial(N,1,1).   /*paso1, entra un numero N, se inicializa i en 1, y P se inicializa en 1, ESTE ES EL INICIALIZADOR*/
 factorial(N,I,P):-I>N,write(P).   /*paso2, este es un alg recursivo, ESTA ES LA CONDICION*/
 factorial(N,I,P):-II is I+1,PP is P*I,factorial(N,II,PP).  /*paso3,N >= 1, ESTO ES DENTRO DEL WHILE I =< N,*/
