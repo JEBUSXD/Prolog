@@ -15,3 +15,4 @@ facSumaPRO(N,SU):-facSumaPRO(N,1,0,SU).
 facSumaPRO(N,I,AC,SU):-I>N,SU=AC.
 facSumaPRO(N,I,AC,SU):-NAC is AC+I,II is I+1,facSumaPRO(N,II,NAC,SU).
 
+% modificando archivo para subirlo al github desde el git
