@@ -1,0 +1,5 @@
+
+
+Para ejecutar el programa :
+
+Comando:     iniciar.
