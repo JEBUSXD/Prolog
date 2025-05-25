@@ -1,0 +1,179 @@
+Animales sueltos: alerta de presencia de animales en la vía, ubicada en zonas rurales. 
+Se la puede encontrar con otra imagen como una vaca o alce. También puede indicar "Animales libres" o "Animales en la vía".SI o NO
+
+
+Acantilados: ubicada en zonas costeras, éstas indican que hay que tomar precaución para evitar todo tipos caídas hacia el vacío.SI o NO
+
+Altura limitada o máxima: esta señal está diseñada especialmente para aquellos vehículos de carga 
+como camiones o que trasportan una carga superior en altura a lo normal.SI o NO
+
+Bifurcación en Y: muchas rutas y calles sufren lo que se llama bifurcación, 
+un cambio de dirección o la apertura de una nueva ruta o camino.SI o NO
+
+
+Bifurcación o empalme en T: Al igual que la bifurcación en V también tenemos 
+la bifurcación o empalme en forma de T.SI o NO
+
+Calzada dividida o camino dividido: como su nombre lo indica, esta señal indica una división en el camino, 
+generado así 2 senderos de ida y vuelta.SI o NO
+
+
+Calzada resbaladiza: simboliza concretamente a sectores de la calzada que pueden generar peligro, 
+como por ejemplo calzada de tierra o con zanjas.SI o NO
+
+
+Camino en Zig Zag: esta señalización vial significa que el camino es en zig zag y que hay que tener precaución.SI o NO
+
+Cruce de caminos: como su figura lo indica, 2 caminos que se cruzan alertan al conductor a tomar precauciones. 
+También es conocida esta señal como "Cruce peligroso de vías".SI o NO
+
+
+Cruce de trenes o ferroviario: perteneciente a las señales ferroviarias, en este caso indicado presencia o cruce de vías de tren.SI o NO
+
+Curva: esta señal de tránsito es de las más conocidas, 
+quedando en claro que indica la aproximación de una curva.SI o NO
+
+Curva peligrosa hacia la izquierda: este tipo de señales son muy eficaces a la hora de evitar 
+derrapes o salidas de ruta estrepitosas.SI o NO
+
+Curva peligrosa hacia la derecha: igual que la anterior pero distinta dirección.SI o NO
+
+Curva en S: similar a la anterior señal de tránsito, sólo que esta hace alusión a un camino con forma de 
+"S" con curvas y contra curvas.SI o NO
+
+
+Zona de Derrumbes: generalmente ubicada en zonas montañosas, 
+pero también cuando se acumulan grandes cantidades de nieve.SI o NO
+
+
+Escuela cerca: esta señal de tránsito es muy útil todas las instituciones educativas, especialmente donde concurren niños. 
+Similares "Despacio escuela", "Cuidado escuela" o "Zona de escuela".SI o NO
+
+Estrechamiento de calzada derecha: señal muy importante en ocasiones donde los caminos están siendo reparados,
+ o cuando el camino empalma con una ruta vieja y más angosta.SI o NO
+
+Estrechamiento de calzada izquierda: igual que la anterior pero el estrachamiemto es por izquierda.SI o NO
+
+Estrechamiento de calzada de ambas mano: a diferencia de las 2 anteriores, 
+en este caso se estrechan ambas manos del camino.SI o NO
+
+Exclusivo discapacitados: esta señal indica la presencia o circulación de personas 
+con ciertas limitaciones motrices.SI o NO
+
+Fin de zona de derrumbe: con colores diferentes a las señales de este grupo, 
+esta muestra el fin de una zona de derrumbe en el camino.SI o NO
+
+
+
+Indicador de semáforo: esta señalización previene al conductor que está próximo a un semáforo.SI o NO
+
+Maquinaria agrícola: indicador de precencia de tracores o maquinarias agrícolas.SI o NO
+
+Fuertes vientos laterales: muy común encontrarlas en zonas geográficas donde el clima es extremo, 
+muy tomada en cuenta por vehículos que trasportan mercaderías a altas alturas.SI o NO
+
+Puente angosto: proximidad de un puente angosto.SI o NO
+
+Proyección de piedras: en muchos caminos podemos encontrar la existencia de gran cantidad de piedras sobre el pavimento, 
+éstas pisarlas causan daños a otros vehículos o personas.SI o NO
+
+Túnel: indicador de proximación de un túne.SI o NO
+
+Pendiente ascendente: esta señal indica que a metros el camino se vuelve ascendente, 
+teniendo que tomar las precauciones correspondientes.SI o NO
+
+Pendiente descendente: igual que la anterior pero en este caso es descendiente.SI o NO
+
+Inicio de doble circulación, vía o sentido: después de ir en un camino de una sola mano, 
+podemos toparnos con un camino de doble circulación.SI o NO
+
+Niños jugando: la solemos encontrar en espacio exclusivos para juegos o lugares públicos como plazas. 
+También son conocidas como "Niños en la vía" o "Niños cruzando".Si o NO
+
+Semáforo de ferrocarril: éste tipo de semáforos los encontramos cuando hay un cruce de vías con calles.SI o NO
+
+
+Ceda el paso: señal indicadora de la posibilidad de darle el paso a aquellos
+vehículos que circular a mayor velocidad que otros.SI o NO
+
+Comienzo doble mano: esta señal es de una gran importancia, ya que alerta a los conductores sobre 
+la presencia o cercanía de una calle o avenida de doble mano.SI o NO
+
+Direcciones permitidas: esta señal de tránsito indica que sólo se pueden tomar las direcciones que esta señala.SI o NO
+
+Giro obligatorio: esta señal indica al conductor que debe girar obligatoriamente
+hacia la dirección que esta indica, y no hacia otra.SI o NO
+
+Límite de altura: muy similar a la señal preventiva "Altura limitada", advierte al conductor la imposibilidad 
+de pasar por ese trayecto si sobrepasa la altura que indica el cartel.SI o NO
+
+Límite de ancho: es de la misma familia de señales que indican altura y ancho permitida para pasar por determinados caminos.SI o NO
+
+Límite de largo: otra señal que indica en este caso el largo permitido que puede
+tener un vehículo para acceder a determinados lugares.SI o NO
+
+Límite de peso: esta señal es muy común en ciudades y advierte sobre el peso máximo que puede tener un vehículo, 
+también es muy común encontrarlas en puentes.SI o NO
+
+Límite de velocidad: de las más comunes de las señales de tránsito,la podemos encontrar en rutas y caminos o calles de ciudad.SI o NO
+
+Límite de velocidad mínima: esta señal la encontramos en sectores de rutas, autopistas o caminos donde 
+la velocidad de los vehículos no debe ser menor a la indicada por la señal.SI o NO
+
+Prohibido avanzar: como su nombre y diseño lo indica, prohíbe determinantemente el avance de cualquier vehículo.SI o NO
+
+Prohibido estacionar: la podemos encontrar en hospitales, o instituciones públicas como escuelas o juzgados. 
+También se la conoce como No estacionar.SI o NO
+
+Prohibido estacionar o detenerse: a diferencia de la anterior señal, esta prohíbe a los conductores 
+no sólo estacionar sino también a detenerse.SI o NO
+
+Prohibido girar a la derecha: esta señal prohíbe determinantemente a los conductores girar a la derecha.
+
+Prohibido girar a la izquierda: similar a la anterior pero indicado que bajo ningún motivo se puede girar a la izquierda.SI o NO
+
+Prohibido girar en U: señal muy común y útil, la solemos encontrar en avenidas de varias manos, 
+logrando así que se eviten colisiones.SI o NO
+
+Prohibido ruidos molestos: la solemos encontrar en hospitales o lugares donde se necesitan un límite de ruido.SI o NO
+
+Pare o Alto: otra de las señales más comunes, indicando esta la obligación de detener el vehículo. 
+La solemos conocer también como "Alto".SI o NO
+
+Paso obligado: por lo general esta señal indica al conductor que debe circular obligatoriamente por el lugar indicado por la figura.SI o NO
+
+Peatones por izquierda: para evitar inconvenientes con el tránsito, 
+muchas veces se obliga a los peatones a circular por determinados lugares, en este caso por la izquierda.SI o NO
+
+Prohibido adelantarse: la solemos encontrar en calles o caminos donde estos son demasiado angostos o que son demasiado transitados.SI o NO
+
+Prohibido cambiar de carril: muy similar a la anterior señal, pero esta indica que no se puede cambiar de carril.SI o NO
+
+Prohibido circular con animales: esta señal también hace referencia a la circulación de vehículos que son de tracción a sangre.SI o NO
+
+Prohibido circular autos: como su nombre lo indica, queda determinantemente prohibido la circulación de vehículos por la zona indicada.SI o NO
+
+Prohibido circular bicicletas: esta señal restringe la circulación de bicicletas
+en el lugar donde se encuentra la misma.SI o NO
+
+Prohibido circular camiones: del mismo grupo de señales prohibitorias, esta hace referencia a vehículos 
+de gran porte como puede ser los camiones.SI o NO
+
+Prohibido circular motos: hace referencia a la prohibición 
+total para circular en motocicletas.SI o NO
+
+Avance: señal que indica que no hay que parar ni detenerse.SI o NO
+
+Sentido circulación: señal que indica en qué sentido se debe circular.SI o NO
+
+Transporte pesado por la derecha: micros, camiones, maquinarias agrícolas u otros vehículos 
+de porte pesado deben circular por la derecha.SI o NO
+
+Uso cadenas para la nieve: la imagen avisa del uso reglamentario de cadenas para las ruedas de los vehículos en caminos donde hay nieve.SI o NO
+
+
+
+
+
+
+
