@@ -84,7 +84,7 @@
  resource(pesaditoo, image, image('pesaditoo.jpg')).
  resource(gomeria, image, image('gomeria.jpg')).
 
- 
+  
  
 
 
