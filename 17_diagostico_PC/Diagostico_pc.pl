@@ -35,6 +35,7 @@ a:-new(Ventana,dialog('Diagnostico para computadoras de manera grafica.')),
 	send(Ventana, display, BotonIni, point(100, 380)),
 	send(Ventana, display, BotonSalir, point(400, 380)),
         send(Ventana,open).
+:-a.
 
 /***************************Proceso cuando se presiona "Empezar diagnostico*********************************/
 ventanitas:-limpiar,
@@ -122,95 +123,95 @@ antivirus:- opcion_19, opcion_19_1, opcion_19_2, opcion_19_3.
 conflictos :-opcion_20, opcion_20_1, opcion_20_2.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Preguntas %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-opcion_1  :-pregunta('¿Las aplicaciones tardan mucho en abrirse?').
-opcion_1_1:-pregunta('¿El cambio entre ventanas es lento?').
-opcion_1_2:-pregunta('¿Tienes congelamientos frecuentes?').
-opcion_1_3:-pregunta('¿El uso de memoria llega al 100%?').
+opcion_1  :-pregunta('Â¿Las aplicaciones tardan mucho en abrirse?').
+opcion_1_1:-pregunta('Â¿El cambio entre ventanas es lento?').
+opcion_1_2:-pregunta('Â¿Tienes congelamientos frecuentes?').
+opcion_1_3:-pregunta('Â¿El uso de memoria llega al 100%?').
 
-opcion_2  :-pregunta('¿Los archivos tardan en abrirse?').
-opcion_2_1:-pregunta('¿Escuchas ruidos inusuales del disco?').
-opcion_2_2:-pregunta('¿Fallos al copiar/mover archivos?').
-opcion_2_3:-pregunta('¿Congelamientos sin razon aparente?').
+opcion_2  :-pregunta('Â¿Los archivos tardan en abrirse?').
+opcion_2_1:-pregunta('Â¿Escuchas ruidos inusuales del disco?').
+opcion_2_2:-pregunta('Â¿Fallos al copiar/mover archivos?').
+opcion_2_3:-pregunta('Â¿Congelamientos sin razon aparente?').
 
-opcion_3  :-pregunta('¿La PC se apaga sola despues de un rato?').
-opcion_3_1:-pregunta('¿Los ventiladores hacen mas ruido de lo normal?').
-opcion_3_2:-pregunta('¿Hay bajo rendimiento al jugar o trabajar?').
+opcion_3  :-pregunta('Â¿La PC se apaga sola despues de un rato?').
+opcion_3_1:-pregunta('Â¿Los ventiladores hacen mas ruido de lo normal?').
+opcion_3_2:-pregunta('Â¿Hay bajo rendimiento al jugar o trabajar?').
 
-opcion_4  :-pregunta('¿La PC no enciende o lo hace intermitentemente?').
-opcion_4_1:-pregunta('¿Se apaga repentinamente?').
+opcion_4  :-pregunta('Â¿La PC no enciende o lo hace intermitentemente?').
+opcion_4_1:-pregunta('Â¿Se apaga repentinamente?').
 
-opcion_5 :-pregunta('¿El sistema lanza alertas de espacio lleno?').
-opcion_5_1:-pregunta('¿El explorador esta muy lento?').
-opcion_5_2:-pregunta('¿No puedes guardar archivos grandes?').
+opcion_5 :-pregunta('Â¿El sistema lanza alertas de espacio lleno?').
+opcion_5_1:-pregunta('Â¿El explorador esta muy lento?').
+opcion_5_2:-pregunta('Â¿No puedes guardar archivos grandes?').
 
-opcion_6  :-pregunta('¿Ves lineas o errores visuales en la pantalla?').
-opcion_6_1:-pregunta('¿Juegos o programas graficos se cierran solos?').
-opcion_6_2:-pregunta('¿Pantalla negra al iniciar?').
+opcion_6  :-pregunta('Â¿Ves lineas o errores visuales en la pantalla?').
+opcion_6_1:-pregunta('Â¿Juegos o programas graficos se cierran solos?').
+opcion_6_2:-pregunta('Â¿Pantalla negra al iniciar?').
 
-opcion_7 :- pregunta('¿Aparecen pantallazos azules con frecuencia?').
-opcion_7_1:-pregunta('¿Se reinicia sin razon aparente?').
-opcion_7_2:-pregunta('¿Las aplicaciones se cierran solas?').
-opcion_7_3:-pregunta('¿Errores al instalar programas?').
+opcion_7 :- pregunta('Â¿Aparecen pantallazos azules con frecuencia?').
+opcion_7_1:-pregunta('Â¿Se reinicia sin razon aparente?').
+opcion_7_2:-pregunta('Â¿Las aplicaciones se cierran solas?').
+opcion_7_3:-pregunta('Â¿Errores al instalar programas?').
 
-opcion_8 :- pregunta('¿No detecta componentes como RAM o disco?').
-opcion_8_1:-pregunta('¿Se reinicia sin llegar al sistema?').
-opcion_8_2:-pregunta('¿No da imagen al encender?').
-opcion_8_3:-pregunta('¿No funcionan los puertos USB?').
+opcion_8 :- pregunta('Â¿No detecta componentes como RAM o disco?').
+opcion_8_1:-pregunta('Â¿Se reinicia sin llegar al sistema?').
+opcion_8_2:-pregunta('Â¿No da imagen al encender?').
+opcion_8_3:-pregunta('Â¿No funcionan los puertos USB?').
 
-opcion_9 :- pregunta('¿No detecta perifericos al conectarlos?').
-opcion_9_1:-pregunta('¿La computadora falla sin razon clara?').
-opcion_9_2:-pregunta('¿Conectores USB/HDMI hacen falso contacto?').
+opcion_9 :- pregunta('Â¿No detecta perifericos al conectarlos?').
+opcion_9_1:-pregunta('Â¿La computadora falla sin razon clara?').
+opcion_9_2:-pregunta('Â¿Conectores USB/HDMI hacen falso contacto?').
 
-opcion_10 :- pregunta('¿La hora/fecha se reinician al encender?').
-opcion_10_1:-pregunta('¿Errores relacionados con la CMOS?').
-opcion_10_2:-pregunta('¿No se guardan configuraciones del BIOS?').
-opcion_10_3:-pregunta('¿Tarda mucho en arrancar el sistema?').
+opcion_10 :- pregunta('Â¿La hora/fecha se reinician al encender?').
+opcion_10_1:-pregunta('Â¿Errores relacionados con la CMOS?').
+opcion_10_2:-pregunta('Â¿No se guardan configuraciones del BIOS?').
+opcion_10_3:-pregunta('Â¿Tarda mucho en arrancar el sistema?').
 
-opcion_11 :- pregunta('¿El inicio del sistema es muy lento?').
-opcion_11_1 :- pregunta('¿Hay muchos iconos en la bandeja del sistema?').
-opcion_11_2 :- pregunta('¿El CPU o disco estan al 100% al arrancar?').
+opcion_11 :- pregunta('Â¿El inicio del sistema es muy lento?').
+opcion_11_1 :- pregunta('Â¿Hay muchos iconos en la bandeja del sistema?').
+opcion_11_2 :- pregunta('Â¿El CPU o disco estan al 100% al arrancar?').
 
-opcion_12 :- pregunta('¿Aparecen ventanas emergentes sin razÃ³n?').
-opcion_12_1:-pregunta('¿El navegador se redirige solo?').
-opcion_12_2:-pregunta('¿Tu antivirus se desactiva solo?').
-opcion_12_3:-pregunta('¿La computadora parece controlarse sola?').
+opcion_12 :- pregunta('Â¿Aparecen ventanas emergentes sin razÃƒÂ³n?').
+opcion_12_1:-pregunta('Â¿El navegador se redirige solo?').
+opcion_12_2:-pregunta('Â¿Tu antivirus se desactiva solo?').
+opcion_12_3:-pregunta('Â¿La computadora parece controlarse sola?').
 
-opcion_13 :- pregunta('¿Programas no funcionan correctamente?').
-opcion_13_1:-pregunta('¿Dispositivos no funcionan tras actualizar?').
-opcion_13_2:-pregunta('¿Errores al reiniciar tras actualizaciones?').
+opcion_13 :- pregunta('Â¿Programas no funcionan correctamente?').
+opcion_13_1:-pregunta('Â¿Dispositivos no funcionan tras actualizar?').
+opcion_13_2:-pregunta('Â¿Errores al reiniciar tras actualizaciones?').
 
-opcion_14 :- pregunta('¿No tienes audio o se escucha mal?').
-opcion_14_1:-pregunta('¿Parpadea o se congela la pantalla?').
-opcion_14_2:-pregunta('¿No reconoce Wi-Fi o mouse/teclado?').
-opcion_14_3:-pregunta('¿Errores al abrir juegos o programas?').
+opcion_14 :- pregunta('Â¿No tienes audio o se escucha mal?').
+opcion_14_1:-pregunta('Â¿Parpadea o se congela la pantalla?').
+opcion_14_2:-pregunta('Â¿No reconoce Wi-Fi o mouse/teclado?').
+opcion_14_3:-pregunta('Â¿Errores al abrir juegos o programas?').
 
-opcion_15 :- pregunta('¿Aparecen errores constantes del sistema?').
-opcion_15_1:-pregunta('¿No se puede actualizar Windows o Linux?').
-opcion_15_2:-pregunta('¿El sistema se bloquea completamente?').
-opcion_15_3:-pregunta('¿Faltan archivos importantes del sistema?').
+opcion_15 :- pregunta('Â¿Aparecen errores constantes del sistema?').
+opcion_15_1:-pregunta('Â¿No se puede actualizar Windows o Linux?').
+opcion_15_2:-pregunta('Â¿El sistema se bloquea completamente?').
+opcion_15_3:-pregunta('Â¿Faltan archivos importantes del sistema?').
 
-opcion_16 :- pregunta('¿Programas no abren o lanzan errores?').
-opcion_16_1:-pregunta('¿Conflictos o bloqueos tras instalar software?').
-opcion_16_2:-pregunta('¿Se volvio lento tras instalar algo nuevo?').
-opcion_16_3:-pregunta('¿Problemas para desinstalar programas?').
+opcion_16 :- pregunta('Â¿Programas no abren o lanzan errores?').
+opcion_16_1:-pregunta('Â¿Conflictos o bloqueos tras instalar software?').
+opcion_16_2:-pregunta('Â¿Se volvio lento tras instalar algo nuevo?').
+opcion_16_3:-pregunta('Â¿Problemas para desinstalar programas?').
 
-opcion_17 :- pregunta('¿Cambion el fondo o accesos directos solos?').
-opcion_17_1:-pregunta('¿El navegador abre pÃ¡ginas que no configuraste?').
-opcion_17_2:-pregunta('¿Se bloquearon funciones como administrador de tareas?').
+opcion_17 :- pregunta('Â¿Cambion el fondo o accesos directos solos?').
+opcion_17_1:-pregunta('Â¿El navegador abre pÃƒÂ¡ginas que no configuraste?').
+opcion_17_2:-pregunta('Â¿Se bloquearon funciones como administrador de tareas?').
 
-opcion_18 :- pregunta('¿El navegador esta muy lento con muchas pestanas?').
-opcion_18_1:-pregunta('¿Se congela al cambiar de pestaÃ±a o app?').
-opcion_18_2:-pregunta('¿Hay retardo al escribir o moverse?').
-opcion_18_3:-pregunta('¿CPU al 100% sin tareas pesadas?').
+opcion_18 :- pregunta('Â¿El navegador esta muy lento con muchas pestanas?').
+opcion_18_1:-pregunta('Â¿Se congela al cambiar de pestaÃƒÂ±a o app?').
+opcion_18_2:-pregunta('Â¿Hay retardo al escribir o moverse?').
+opcion_18_3:-pregunta('Â¿CPU al 100% sin tareas pesadas?').
 
-opcion_19 :- pregunta('¿La PC se vuelve lenta al usar el antivirus?').
-opcion_19_1:-pregunta('¿El escaneo dura mucho tiempo?').
-opcion_19_2:-pregunta('¿Tareas simples tardan mas de lo normal?').
-opcion_19_3:-pregunta('¿Demasiadas notificaciones del antivirus?').
+opcion_19 :- pregunta('Â¿La PC se vuelve lenta al usar el antivirus?').
+opcion_19_1:-pregunta('Â¿El escaneo dura mucho tiempo?').
+opcion_19_2:-pregunta('Â¿Tareas simples tardan mas de lo normal?').
+opcion_19_3:-pregunta('Â¿Demasiadas notificaciones del antivirus?').
 
-opcion_20 :- pregunta('¿Dos programas fallan si se usan juntos?').
-opcion_20_1:-pregunta('¿Hay funciones duplicadas entre apps?').
-opcion_20_2:-pregunta('¿Se cuelga al abrir ciertas combinaciones de apps?').
+opcion_20 :- pregunta('Â¿Dos programas fallan si se usan juntos?').
+opcion_20_1:-pregunta('Â¿Hay funciones duplicadas entre apps?').
+opcion_20_2:-pregunta('Â¿Se cuelga al abrir ciertas combinaciones de apps?').
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Modulo de preguntas tipo "si/no" %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 :- dynamic si/1, no/1.
