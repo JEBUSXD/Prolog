@@ -1,0 +1,12 @@
+Para ejecutar el programa :
+
+Comando:     iniciar.
+
+
+
+
+
+Para ejecutar el programa de "corazonResumido" :
+
+Comando:     a.
+
