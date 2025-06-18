@@ -39,13 +39,19 @@ a:- new(V, dialog('Cuestionario para un ingeniero electrico')),
     send(V, display, Titulo, point(80, 10)),
     send(SubTitulo, font, font(times, bold, 15)),
     send(V, display, SubTitulo, point(10, 60)),
+    send(SubTitulo, colour, red),
 
     send(V, display, Texto, point(10, 80)),
     send(V, display, Texto2, point(10, 110)),
+    send(Texto2, font, font(times, italic, 13)),
+    send(Texto2, colour, black),
+
     send(V, display, BotonIni, point(100, 430)),
+    send(BotonIni, colour, black),
     send(V, display, BotonSalir, point(400, 430)),
+    send(BotonSalir, colour, black),
     send(V, open).
-:-a.                                                                           %para no poner comando a cada rato
+:-a.                                                                %para no poner comando a cada rato
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Preguntas %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  
 :- dynamic puntuacion/1.      %para la puntuacion dinamica ( predicado/funcion)R=R+1
