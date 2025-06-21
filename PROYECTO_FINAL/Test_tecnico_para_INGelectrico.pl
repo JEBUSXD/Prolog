@@ -217,6 +217,7 @@ mostrar_resultado(Resultado) :-
     new(V, dialog('ventanas de resultado del cuestionario')),
     new(T, label(r, Resultado)),
     send(T, font, font(times, bold, 14)),
+    
     send(V, append, T),
     send(V, append, button('Cerrar', message(V, destroy))),
     send(V, open_centered).
