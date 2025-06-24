@@ -17,9 +17,10 @@ insertarIesimo([X|L1],E,I,[X|L2]):-insertarIesimo(L1,E,I-1,L2).
 eliminarIesimo([X|L1],I,[L1]):-I=:=1 .					%eliminarIesimo([50,10,90,40],3,L).
 eliminarIesimo([X|L1],I,[X|L2]):-eliminarIesimo(L1,I-1,L2).
 
-/*concatenar([],L1,L2).							%concatenar([2,4],[1,3,5],L).
-concatenar([X|L1],L2,[X|L3]):-concatanar(L1,L2,L3).*/
-
-concatenar([], L, L).
+concatenar([], L, L).							%concatenar([2,4],[1,3,5],L).
 concatenar([X|L1], L2, [X|L3]) :- concatenar(L1, L2, L3).
 
+numMayor([X], X).							%
+numMayor([X,Y|Rest], Max):-
+    numMayor([Y|Rest], MaxRest),
+    (X>=MaxRest->Max=X;Max=MaxRest).
