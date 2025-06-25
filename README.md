@@ -8,6 +8,6 @@ En este archivo se recopila todo lo que se avanzo en la materia de Prolog, mater
     -uso de familias y reglas. 
     -Ciclos usando recurcion.
     -Listas.
-    -librerias para trabajar de menera grafica.
+    -librerias para trabajar de menera sgrafica.
 
 
