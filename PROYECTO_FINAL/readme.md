@@ -6,12 +6,12 @@ Para poder desarrollar este proyecto se entrevisto por medio de mensajes y llama
 - [Uso](#uso)
 
 ## Informacion 
-**ING. Electrico**
-**Cristian Rosales Romao.**
-**Encargado de prescripción de materiales.**
-**Empresa mercantil León srl.**
-**Ubicación av. Melchor pinto, primer anillo.**
-**numero: +591++++++++**
+   - **ING. Electrico**
+   - **Cristian Rosales Romao.**
+   - **Encargado de prescripción de materiales.**
+   - **Empresa mercantil León srl.**
+   - **Ubicación av. Melchor pinto, primer anillo.**
+   - **numero: +591++++++++**
 
 ## Descripcion 
 
