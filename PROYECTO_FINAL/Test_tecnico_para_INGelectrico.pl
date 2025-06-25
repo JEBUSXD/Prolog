@@ -1,8 +1,8 @@
 /*****************************************************
 >TEST PARA UN INGENIERO ELECTRICO
 PROYECTO PARA PROGRAMACION LOGICA Y FUNCIONAL(INF-318)
-HECHO POR: -Juan Ernesto Cordero Pozo
-	   -Francisco  Mendez
+HECHO POR:  -Juan Ernesto Cordero Pozo
+	        -Francisco  Mendez
 DOCENTE:  Edwin Terrazas Calle
 Informacion:Para poder desarrollar este proyecto se entrevisto a un ingeniero electrico, encargado de prescripcion de materiales.
 ******************************************************/
@@ -222,31 +222,3 @@ mostrar_resultado(Resultado) :-
     send(V, append, button('Cerrar', message(V, destroy))),
     send(V, open_centered).
     limpiar :- retractall(puntuacion(_)).%Reinicia el sistema de puntuacion.
-/*lwjicnoiejcnoiejnvcpeijncpijncoiqj**********************************************************n*/
-/*tu linea no procesa los incisos */
-/*preguntas([[Preg|Items]|Rest]) :-
-    new(D, dialog('Pregunta')),
-    send(D, append, label(pregunta, Preg)),
-    extract_items(Items, [Item1, Item2, Item3]),
-    new(B1, button(Item1, message(D, return, item(Val1, _)))),
-    new(B2, button(Item2, message(D, return, item(Val2, _)))),
-    new(B3, button(Item3, message(D, return, item(Val3, _)))),
-    send(D, append, B1),
-    send(D, append, B2),
-    send(D, append, B3),
-    send(D, open),
-    get(D, confirm, Item),
-    Item = item(Val, _),
-    retract(puntuacion(Current)),
-    NewScore is Current + Val,
-    assert(puntuacion(NewScore)),
-    free(D),
-    preguntas(Rest).
-
-%extract_items([item(V1,L1), item(V2,L2), item(V3,L3)], [L1, L2, L3]) :-!.
-
-mostrar_resultado(Resultado) :-
-    new(D, dialog('Resultado')),
-    send(D, append, label(resultado, Resultado)),
-    send(D, append, button('OK', message(D, destroy))),
-    send(D, open).*/
