@@ -15,6 +15,8 @@ facSumaPRO(N,SU):-facSumaPRO(N,1,0,SU).
 facSumaPRO(N,I,AC,SU):-I>N,SU=AC.
 facSumaPRO(N,I,AC,SU):-NAC is AC+I,II is I+1,facSumaPRO(N,II,NAC,SU).
 
+
+/*tarea*/
 mayorN(N, M) :- mayorN(N, 1, 0, M).
 mayorN(N, I, AC, M) :-I > N, M is AC.
 mayorN(N, I, AC, M) :-

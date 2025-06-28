@@ -20,7 +20,7 @@ eliminarIesimo([X|L1],I,[X|L2]):-eliminarIesimo(L1,I-1,L2).
 concatenar([], L, L).							%concatenar([2,4],[1,3,5],L).
 concatenar([X|L1], L2, [X|L3]) :- concatenar(L1, L2, L3).
 
-numMayor([X], X).							%
+numMayor([X], X).							%numMayor([5,77,5,4,69,30], X).
 numMayor([X,Y|Rest], Max):-
     numMayor([Y|Rest], MaxRest),
     (X>=MaxRest->Max=X;Max=MaxRest).

@@ -10,7 +10,7 @@ impar(A):-not(par(A)).
 
 % Operadores aritmeticos
 producto(A,B):-P is A*B, write(P).
-divisionE(A,B):-D is A//B,write(D).
+divisionEntera(A,B):-D is A//B,write(D).
 modulo(A,B):-M is A mod B,write(M).
 potencia(A,B):-P is A**B,write(P).
 

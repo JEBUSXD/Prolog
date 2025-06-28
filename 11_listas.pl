@@ -1,6 +1,6 @@
 /*para crear listas es con [],pero se creara como lista vacia, tenemos esta lista 
 L1=[2,9,6,8,4]
-   [X      |L]
+   [X|    L  ]
 'X' es la Cabeza de la lista, 'L' es cola de la lista
 X=2
 L=[9,6,8,4]*/
@@ -22,9 +22,6 @@ sumaL([X],X):-!.
 sumaL([X,Y|SU],Total):-
     Sum is X + Y,
     sumaL([Sum|SU], Total).
-
-%mayor numero 
-
 %otra forma por el ing 
 sumaLista([], 0).
 sumaLista([X|L], Y):-
