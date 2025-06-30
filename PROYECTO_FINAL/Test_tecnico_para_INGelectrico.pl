@@ -213,7 +213,7 @@ preguntas(Lista) :-
 preguntas([],Total) :-
     puntuacion(P),
     Porcentaje is round((P * 100) / Total),                         %P=(17*100)/30,round(56.67) = 57
-    format(atom(Resultado), 'Tu puntuacion fue: ~w%', [Porcentaje]),%el simbolo ~w se sustituye por Porcentaje
+    format(atom(Resultado), 'Tu puntuacion fue: ~w%' , [Porcentaje]),%el simbolo ~w se sustituye por Porcentaje
     mostrar_resultado(Resultado).
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Modulo de preguntas tipo "A/B/C" %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 preguntas([[Pregunta, item(V1, L1), item(V2, L2), item(V3, L3)]|Resto], Total) :- %preguntas([Preg|Resto], Total) :-

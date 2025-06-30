@@ -1,6 +1,11 @@
 # Proyecto para un Test de preguntas para un ING. electrico
 Para poder desarrollar este proyecto se entrevisto por medio de mensajes y llamadas a un ingeniero electrico, encargado de prescripcion de materiales.
-## informacion directa
+
+## Integrantes
+   -Juan Ernesto Cordero Pozo
+   -Francisco  Mendez
+   
+## Informacion directa
 - [Informacion](#Informacion)
 - [Descripcion](#descripcion)
 - [Uso](#uso)
