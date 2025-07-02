@@ -3,8 +3,9 @@ Para poder desarrollar este proyecto se entrevisto por medio de mensajes y llama
 
 ## Integrantes
    -Juan Ernesto Cordero Pozo
-   -Francisco  Mendez
    
+   -Francisco  Mendez
+
 ## Informacion directa
 - [Informacion](#Informacion)
 - [Descripcion](#descripcion)
